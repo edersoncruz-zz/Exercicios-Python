@@ -1,3 +1,53 @@
+'''-------> Descrição do Exercício <-------
+Tarefa 1 – Dicionários
+Competências:
+- Desenvolver um algoritmo viável para o problema;
+- Saber utilizar as funções corretamente;
+- Saber utilizar os comandos adequadamente;
+- Gerar solução utilizando a estrutura de dicionários do python.
+A reportagem acima, fala basicamente sobre o mercado de processadores no mundo. O
+destaque fica para os processadores da Qualcomm, HiSilicon, Apple, Samsung e MediaTek.
+Problema:
+Faça um algoritmo que realize uma pesquisa de satisfação sobre qual das empresas acima o
+usuário mais se identifica. Em sua pesquisa o usuário deverá escolher qual empresa ele mais
+gosta e para essa empresa o usuário deve dar uma nota de 1 a 5.
+Armazene esses dados em um dicionário ( pesquisa = {} ), a empresa e a nota para essa
+empresa.
+Armazene esses dados no dicionário utilizando o nome da empresa como chave, e as notas
+recebidas em uma lista.
+Não é necessária nenhuma identificação, ou validação do usuário. Este apenas escolhe uma
+empresa e uma nota. Podendo realizar essas notas quantas vezes desejar.
+Como sugestão:
+Seu programa poderá utilizar o seguinte menu como guia:
+Menu
+0- Finalizar o Programa
+1- Inserir Empresa
+2- Realizar avaliação
+3- Relatório geral
+4- Relatório por empresa
+Escolha:
+Obs:
+- Uma pessoa não precisa avaliar todas as empresas.
+Na Opção 1: Ao inserir a empresa, validar para não inserir mais que uma vez a mesma empresa.
+Na Opção 2: Ao realizar a avaliação, você deverá escolher uma das empresas do dicionário, e
+avaliar com uma nota inteira de 1 a 5.
+1- Péssimo
+2- Ruim
+3- Regular
+4- Bom
+5- Ótimo
+Na Opção 3: Você deverá mostrar o nome da empresa e a soma de suas notas.
+Na Opção 4: Você deverá escolher uma das empresas e mostrar suas notas individualmente e
+no final, a média das notas recebidas.
+Exemplo de como pode ficar o dicionário:
+pesquisa {
+QUALCOMM: [4,4,5,5,3,4]
+HISILICON: [4,4,4,4,2,3,3,5]
+APPLE: [5,5,4,4]
+}
+Você pode pensar em uma outra forma de montar o dicionário. Não precisa ser assim. Faça como
+achar mais conveniente.
+'''
 pesquisa = {}
 def inserir():
     empresa = input("Nome da Empresa: ").upper()
