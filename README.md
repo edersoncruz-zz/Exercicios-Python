@@ -1,2 +1,2 @@
 # ExerciciosPython
- Série de Exercícios feitas por mim na disciplina de Algoritmos e Programação I
+ Série de Exercícios feitas por mim na disciplina de Algoritmos e Programação I TESTE
